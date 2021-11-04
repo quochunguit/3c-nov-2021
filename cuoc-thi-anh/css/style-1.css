@@ -1,0 +1,172 @@
+.page-3c-fixed .sapporo3c-header-content{
+	    z-index: 9;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    text-align: center;
+}
+.page-3c-fixed .sapporo3c-header-content p{
+	color: #000;
+}
+.page-3c-fixed .sapporo3c-header-content .title-banner{
+	width: 80%;
+	display: table;
+	margin: 0 auto;
+}
+.page-3c-fixed .upload-img{
+	position: relative;
+    width: 540px;
+    max-width: 90%;
+    margin: 1rem auto;
+    text-align: center;
+}
+.page-3c-fixed .upload-img .md-content{
+	position: relative;
+	background: url(../images/popup-bg.jpg) no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 20px;
+}
+.page-3c-fixed .upload-img .md-chose-img {
+	display: block;
+	width: 30%;
+	background: #FFF;
+	padding: 20px 0px;
+}
+.page-3c-fixed .upload-img .md-chose-img .img-ava{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	padding: 5px 20px;
+}
+.page-3c-fixed .upload-img .md-chose-img .khung-anh{
+	position: relative;
+	z-index: 1;
+}
+.page-3c-fixed .upload-img .md-chose-img li a{
+	position: relative;
+}
+.page-3c-fixed .upload-img .md-chose-img li a{
+	display: inline-block;
+	padding: 5px 20px;
+	margin-bottom: 10px;
+}
+.page-3c-fixed .upload-img .md-chose-img li .active{
+	background: #f8aa52;
+}
+.page-3c-fixed .upload-img .md-chose-img li:last-child a{
+	margin-bottom: 0px;
+}
+.page-3c-fixed .upload-img .md-chose-img h4{
+	font-size: 1.5rem;
+    color: #f8aa52;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+.page-3c-fixed .upload-img .content-choses{
+	position: absolute;
+    right: 14%;
+    top: 50%;
+    width: 42%;
+    transform: translateY(-50%);
+    height: 43%
+}
+.page-3c-fixed .upload-img .content-choses img{
+	width: 100%;
+	height: 100%;
+}
+.page-3c-fixed .upload-img .nav{
+	display: block;
+	border-bottom: none;
+}
+.page-3c-fixed .upload-img .content-choses .img-ava-2{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.page-3c-fixed .upload-img .content-choses .khung-anh-2{
+	position: relative;
+	z-index: 1;
+}
+.page-3c-fixed .upload-img .md-title{
+	width: 80%;
+	display: table;
+	margin: 0 auto 30px auto;
+}
+.page-3c-fixed .upload-img .md-title img{
+	margin-bottom: 20px;
+}
+.page-3c-fixed .upload-img .md-button{
+	text-align: left;
+}
+.page-3c-fixed .upload-img .md-button .fl-left{
+	float: left;
+}
+.page-3c-fixed .upload-img .md-button .fl-right{
+	float: right;
+}
+.page-3c-fixed .upload-img .md-button a{
+	width: 25%;
+	min-width: 120px;
+}
+@media only screen and (max-width: 767px){
+	.page-3c-fixed .upload-img{
+		width: 480px;
+	}
+}
+@media only screen and (max-width: 480px){
+	.page-3c-fixed .upload-img {
+	    width: 90%;
+	}
+}
+
+.page-3c-fixed .upload-img-1 .md-content-1{
+	border: 2px solid #f8aa52;
+	border-radius: 20px;
+	background: #FFF;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+}
+.page-3c-fixed .upload-img-1 .md-content-1 .bg-line{
+	position: absolute;
+	left: 0px;
+	top: -3px;
+	width: 100%;
+}
+.page-3c-fixed .upload-img-1 .md-content-1 .img-3{
+	width: 20%;
+	margin-bottom: 10px;
+}
+.page-3c-fixed .upload-img-1 .md-content-1 .img-2{
+	width: 30%;
+	margin-bottom: 10px;
+}
+.page-3c-fixed .upload-img-1 .md-content-1 p span{
+	font-weight: 600;
+}
+.page-3c-fixed .upload-img-1 .md-content-1 .md-button{
+	width: 32.5%;
+	display: table;
+	margin: 0 auto;
+	min-width: 120px;
+}
+.page-3c-fixed .blk-gr3c-animation{
+	display: block;
+}
+.page-3c-fixed{
+	background: url(../images/bg.png) no-repeat;
+	background-size: cover;
+	    background-attachment: fixed;
+	    background-position: center;
+}
+.page-3c-fixed .page-main{
+	background-color: transparent;
+}
+
