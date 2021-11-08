@@ -10,11 +10,15 @@
 }
 .page-3c-fixed .sapporo3c-header-content p{
 	color: #000;
+	font-size: calc(5px + 1vw);
 }
 .page-3c-fixed .sapporo3c-header-content .title-banner{
 	width: 80%;
 	display: table;
 	margin: 0 auto;
+}
+.page-3c-fixed .btn-primary{
+	font-size: calc(7px + 1vw);
 }
 .page-3c-fixed .upload-img{
 	position: relative;
@@ -170,3 +174,35 @@
 	background-color: transparent;
 }
 
+.page-3c-fixed .md-desktop{
+	display: block !important;
+}
+.page-3c-fixed .md-mobile{
+	display: none !important;
+}
+@media screen and (max-width: 767px){
+	.page-3c-fixed .md-desktop{
+		display: none !important;
+	}
+	.page-3c-fixed .md-mobile{
+		display: block !important;
+	}
+}
+@media screen and (max-width: 450px){
+	.page-3c-fixed .sapporo3c-header-content{
+		padding: 0px 10px;
+	}
+	.page-3c-fixed .sapporo3c-header-content p {
+	    font-size: calc(4px + 1vw);
+	}
+	.page-3c-fixed .sapporo3c-header-content .btn{
+		padding-top: 3px !important;
+		padding-bottom: 3px !important;
+	}
+	.page-3c-fixed .sapporo3c-header-content h2{
+		margin-bottom: 5px !important;
+	}
+	.page-3c-fixed .upload-img .md-chose-img h4{
+		font-size: calc(14px + 1vw);
+	}
+}
