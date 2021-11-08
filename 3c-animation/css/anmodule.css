@@ -1203,7 +1203,7 @@
           animation-delay: 0s; }
   @media screen and (max-width: 768px) {
     .bg-rotate {
-      top: -4.5%; } }
+      top: 0%; } }
 
 @-webkit-keyframes bg-rotate {
   from {
