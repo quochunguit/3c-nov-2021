@@ -1169,6 +1169,18 @@
   to {
     -webkit-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1); } }
+.md-img-desktop {
+  display: block; }
+
+.md-img-mb {
+  display: none; }
+
+@media screen and (max-width: 768px) {
+  .md-img-desktop {
+    display: none; }
+
+  .md-img-mb {
+    display: block; } }
 .delivery-3c {
   width: 16.17%;
   position: absolute;
