@@ -728,14 +728,14 @@ input[type="submit"] {
 .slider-3c-animation {
   background: #FFF;
   position: absolute;
-  width: 15%;
-  bottom: 53.7%;
-  right: 20%; }
+  width: 14.25%;
+  bottom: 54.26%;
+  right: 20.4%; }
   @media screen and (max-width: 768px) {
     .slider-3c-animation {
-      width: 16.7%;
-      bottom: 53.6%;
-      right: 15.2%; } }
+      width: 16.3%;
+      bottom: 53.5%;
+      right: 15.45%; } }
   .slider-3c-animation img {
     position: absolute;
     top: 50%;
@@ -1724,14 +1724,17 @@ input[type="submit"] {
   opacity: 0; }
   .popup-3c-share.active-popup {
     visibility: visible;
-    z-index: 100;
+    z-index: 9000;
     opacity: 1; }
   .popup-3c-share .inner-popup {
     position: relative; }
   .popup-3c-share .blk-scroll {
-    max-height: 45vh;
+    max-height: 50vh;
     padding-right: 20px;
     width: 100%; }
+    @media screen and (max-width: 576px) {
+      .popup-3c-share .blk-scroll {
+        max-height: 60vh; } }
   .popup-3c-share .popup-share-close {
     position: absolute;
     right: -2%;
