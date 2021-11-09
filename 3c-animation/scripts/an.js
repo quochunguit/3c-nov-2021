@@ -48,7 +48,7 @@ $('.slider-3c-animation').owlCarousel({
     items:1,
     margin:0,
     dots:false,
-     // autoplay:true,
+     autoplay:true,
     autoplayTimeout:3000,
     slideSpeed: 200,
     URLhashListener:true
