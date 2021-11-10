@@ -826,7 +826,8 @@
             animation: ico-1 infinite 3s; }
 
 .md-popup {
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 100 !important; }
   .md-popup .inner-popup {
     -webkit-transition-duration: 0.5s;
          -o-transition-duration: 0.5s;

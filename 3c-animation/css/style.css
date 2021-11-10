@@ -385,8 +385,7 @@ input[type="submit"] {
   .page-3c-animation ::-webkit-scrollbar {
     height: 0px; }
   .page-3c-animation .page-main {
-    background-color: transparent;
-    overflow: hidden; }
+    background-color: transparent; }
     @media screen and (min-width: 768.1px) {
       .page-3c-animation .page-main {
         display: table;
@@ -498,11 +497,63 @@ input[type="submit"] {
        -o-transform: translateX(-50%);
           transform: translateX(-50%);
   top: 12%;
-  z-index: 10; }
+  z-index: 10;
+  -webkit-animation: icon-drag-mb 9s;
+       -o-animation: icon-drag-mb 9s;
+          animation: icon-drag-mb 9s; }
+  .icon-drag-mb img {
+    width: 100%; }
   @media screen and (max-width: 768px) {
     .icon-drag-mb {
       display: block; } }
 
+@-webkit-keyframes icon-drag-mb {
+  0% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  80% {
+    opacity: 1; }
+  85% {
+    opacity: 0; }
+  90% {
+    opacity: 1; }
+  95% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@-o-keyframes icon-drag-mb {
+  0% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  80% {
+    opacity: 1; }
+  85% {
+    opacity: 0; }
+  90% {
+    opacity: 1; }
+  95% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes icon-drag-mb {
+  0% {
+    opacity: 0; }
+  75% {
+    opacity: 0; }
+  80% {
+    opacity: 1; }
+  85% {
+    opacity: 0; }
+  90% {
+    opacity: 1; }
+  95% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 @-webkit-keyframes fadeInLeft-1 {
   from {
     opacity: 0;
@@ -516,7 +567,6 @@ input[type="submit"] {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-
 @-o-keyframes fadeInLeft-1 {
   from {
     opacity: 0;
@@ -530,7 +580,6 @@ input[type="submit"] {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0); } }
-
 @keyframes fadeInLeft-1 {
   from {
     opacity: 0;
@@ -1009,9 +1058,9 @@ input[type="submit"] {
   left: 54%; }
   @media screen and (max-width: 768px) {
     .animation-vach-song-1 {
-      width: 4.999%;
-      top: 57.4%;
-      left: 55.44%; } }
+      width: 5.76%;
+      top: 56.1%;
+      left: 54.8%; } }
   .animation-vach-song-1 .inner-vach-song {
     overflow: hidden;
     position: relative; }
@@ -1081,9 +1130,9 @@ input[type="submit"] {
   left: 59.07%; }
   @media screen and (max-width: 768px) {
     .animation-vach-song-2 {
-      width: 3.9%;
-      top: 36.3%;
-      left: 60.25%; } }
+      width: 4.1%;
+      top: 35.32%;
+      left: 60.73%; } }
   .animation-vach-song-2 .inner-vach-song {
     overflow: hidden;
     position: relative; }
@@ -1159,8 +1208,8 @@ input[type="submit"] {
   @media screen and (max-width: 768px) {
     .star-1 {
       width: 9.5vw;
-      left: 106.7vw;
-      top: 72.3vw; } }
+      left: 107.7vw;
+      top: 74.3vw; } }
   .star-1 img {
     -webkit-animation: start-1 7s infinite;
          -o-animation: start-1 7s infinite;
@@ -1263,7 +1312,7 @@ input[type="submit"] {
   @media screen and (max-width: 768px) {
     .star-2 {
       width: 9vw;
-      left: 117vw;
+      left: 118vw;
       top: 47.8vw; } }
 
 @-webkit-keyframes start-2 {
@@ -2685,7 +2734,8 @@ input[type="submit"] {
             animation: ico-1 infinite 3s; }
 
 .md-popup {
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 100 !important; }
   .md-popup .inner-popup {
     -webkit-transition-duration: 0.5s;
          -o-transition-duration: 0.5s;
