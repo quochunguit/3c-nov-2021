@@ -15,7 +15,8 @@
 .page-3c-fixed .sapporo3c-header-content .title-banner{
 	width: 80%;
 	display: table;
-	margin: 0 auto;
+	margin: 10px auto 0 auto;
+	opacity: 0;
 }
 .page-3c-fixed .btn-primary{
 	font-size: calc(7px + 1vw);
@@ -180,12 +181,27 @@
 .page-3c-fixed .md-mobile{
 	display: none !important;
 }
+
+@media screen and (max-width: 850px) and (min-width: 768px){
+	.page-3c-fixed .sapporo3c-header-content .title-banner{
+		margin: 30px auto 0 auto;
+	}
+	.page-3c-fixed .ml-md-5,.page-3c-fixed .mx-md-5 {
+	    margin-left: 2rem !important;
+	}
+	.page-3c-fixed .mr-md-5,.page-3c-fixed .mx-md-5 {
+	    margin-right: 2rem!important;
+	}
+}
 @media screen and (max-width: 767px){
 	.page-3c-fixed .md-desktop{
 		display: none !important;
 	}
 	.page-3c-fixed .md-mobile{
 		display: block !important;
+	}
+	.page-3c-fixed .sapporo3c-header-content .title-banner{
+		opacity: 1;
 	}
 }
 @media screen and (max-width: 450px){
@@ -204,5 +220,47 @@
 	}
 	.page-3c-fixed .upload-img .md-chose-img h4{
 		font-size: calc(14px + 1vw);
+	}
+}
+
+
+.page-star-guide .btn-register{
+	background-color: #f6a95a !important;
+}
+.page-star-guide .btn-home{
+	background-color: #fff !important;
+}
+.page-star-guide .about-title{
+	color: #FFF;
+}
+.page-star-guide .about-content{
+	color: #000;
+	margin-bottom: 20px;
+}
+.page-star-guide .main-page{
+	background-image: url(../images/bg-star-guide.png);
+}
+@media screen and (max-width: 767px){
+	.page-star-guide .main-page{
+		background-image: none;
+		padding-bottom: 60vh;
+	}
+	.page-star-guide{
+		background: url(../images/bg-star-guide-mb.png) no-repeat bottom;
+		background-size: cover;
+	}
+	.page-star-guide .about-title{
+		width: 100%;
+	}
+	.page-star-guide .about-content{
+		width: 100%;
+	}
+	.page-star-guide .about-button{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 360px){
+	.page-star-guide .about-button button{
+		width: 120px;
 	}
 }
