@@ -470,15 +470,15 @@
 
 .text-moment-museum {
   position: absolute;
-  top: 19.6%;
-  right: 18.9%;
-  width: 16.9%;
-  height: 6.2%; }
+  height: 6.2%;
+  top: 19.7%;
+  right: 19%;
+  width: 16.8%; }
   @media screen and (max-width: 768px) {
     .text-moment-museum {
       top: 22.2%;
-      right: 13.8%;
-      width: 19.43%;
+      right: 13.9%;
+      width: 19.33%;
       height: 7%; } }
   .text-moment-museum .inner-text-moment-museum {
     position: relative;
@@ -1293,12 +1293,151 @@
   top: -9.5%;
   left: 18%;
   width: 42%;
-  -webkit-animation: bg-rotate 80s linear infinite;
-       -o-animation: bg-rotate 80s linear infinite;
-          animation: bg-rotate 80s linear infinite;
   -webkit-animation-delay: 0s;
        -o-animation-delay: 0s;
           animation-delay: 0s; }
+  .bg-rotate .inner-bg-rotate {
+    position: relative; }
+    .bg-rotate .inner-bg-rotate img {
+      width: 100%; }
+    .bg-rotate .inner-bg-rotate .bg-hl {
+      opacity: 0;
+      width: 100%; }
+    .bg-rotate .inner-bg-rotate .vong-light {
+      width: 97.1%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .bg-rotate .inner-bg-rotate .flare {
+      width: 51.3%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+    .bg-rotate .inner-bg-rotate .vong-8 {
+      width: 100%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-8 img {
+        -webkit-animation: bg-rotate 70s linear infinite;
+             -o-animation: bg-rotate 70s linear infinite;
+                animation: bg-rotate 70s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-7 {
+      width: 88.7%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-7 img {
+        -webkit-animation: bg-rotate-1 50s linear infinite;
+             -o-animation: bg-rotate-1 50s linear infinite;
+                animation: bg-rotate-1 50s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-6 {
+      width: 74%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-6 img {
+        -webkit-animation: bg-rotate 70s linear infinite;
+             -o-animation: bg-rotate 70s linear infinite;
+                animation: bg-rotate 70s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-5 {
+      width: 63.9%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-5 img {
+        -webkit-animation: bg-rotate-1 50s linear infinite;
+             -o-animation: bg-rotate-1 50s linear infinite;
+                animation: bg-rotate-1 50s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-4 {
+      width: 51.6%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-4 img {
+        -webkit-animation: bg-rotate 70s linear infinite;
+             -o-animation: bg-rotate 70s linear infinite;
+                animation: bg-rotate 70s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-3 {
+      width: 42.7%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-3 img {
+        -webkit-animation: bg-rotate 40s linear infinite;
+             -o-animation: bg-rotate 40s linear infinite;
+                animation: bg-rotate 40s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-2 {
+      width: 33.6%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-2 img {
+        -webkit-animation: bg-rotate 50s linear infinite;
+             -o-animation: bg-rotate 50s linear infinite;
+                animation: bg-rotate 50s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-1 {
+      width: 27.6%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-1 img {
+        -webkit-animation: bg-rotate-1 50s linear infinite;
+             -o-animation: bg-rotate-1 50s linear infinite;
+                animation: bg-rotate-1 50s linear infinite; }
+    .bg-rotate .inner-bg-rotate .vong-0 {
+      width: 21.5%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+           -o-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%); }
+      .bg-rotate .inner-bg-rotate .vong-0 img {
+        -webkit-animation: bg-rotate 70s linear infinite;
+             -o-animation: bg-rotate 70s linear infinite;
+                animation: bg-rotate 70s linear infinite; }
   @media screen and (max-width: 768px) {
     .bg-rotate {
       top: 0%; } }
@@ -1328,6 +1467,29 @@
     -webkit-transform: rotate(360deg);
          -o-transform: rotate(360deg);
             transform: rotate(360deg); } }
+@-webkit-keyframes bg-rotate-1 {
+  from {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); }
+  to {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); } }
+@-o-keyframes bg-rotate-1 {
+  from {
+    -o-transform: rotate(360deg);
+       transform: rotate(360deg); }
+  to {
+    -o-transform: rotate(0deg);
+       transform: rotate(0deg); } }
+@keyframes bg-rotate-1 {
+  from {
+    -webkit-transform: rotate(360deg);
+         -o-transform: rotate(360deg);
+            transform: rotate(360deg); }
+  to {
+    -webkit-transform: rotate(0deg);
+         -o-transform: rotate(0deg);
+            transform: rotate(0deg); } }
 .wellcome-line {
   position: absolute;
   width: 16%;
