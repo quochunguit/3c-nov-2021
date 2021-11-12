@@ -48,7 +48,7 @@ $('.slider-3c-animation').owlCarousel({
     items:1,
     margin:0,
     dots:false,
-     // autoplay:true,
+     autoplay:true,
     autoplayTimeout:3000,
     slideSpeed: 200,
     URLhashListener:true
@@ -59,6 +59,24 @@ function animate_hl(){
     myDiv.animate({ scrollLeft:  scrollto});
 }
 animate_hl();
+function animate_hl_right(){
+    var myDiv = $(".blk-gr3c-animation");
+    var scrollto = myDiv.offset().left + (myDiv.width() / 2.9);
+    myDiv.animate({ scrollLeft:  scrollto}, 2000);
+}
+function animate_hl_left(){
+    var myDiv = $(".blk-gr3c-animation");
+    var scrollto = myDiv.offset().left + (myDiv.width() / 1.2);
+    myDiv.animate({ scrollLeft:  scrollto}, 2000);
+}
+setTimeout(function() {
+  animate_hl_right();
+}, 3000);
+setTimeout(function() {
+  animate_hl_left();
+}, 5000);
+
+
 
 function scrool_center_div(){
   const slider = document.querySelector('.blk-gr3c-animation');
@@ -132,7 +150,7 @@ $(document).mouseup(function(e)
 
 
 
-$('.blk-scroll').overlayScrollbars({
-    scroll:"y",
-    resize: "y"
-}); 
+// $('.blk-scroll').overlayScrollbars({
+//     scroll:"y",
+//     resize: "y"
+// }); 
