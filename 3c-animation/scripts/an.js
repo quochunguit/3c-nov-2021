@@ -148,7 +148,7 @@ $(document).mouseup(function(e)
 });
   
 
-
+$(".blk-scroll").mCustomScrollbar();
 
 // $('.blk-scroll').overlayScrollbars({
 //     scroll:"y",
