@@ -1903,20 +1903,17 @@ input[type="submit"] {
     width: 100%; }
   .link-to-3c-quiz a {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 40%;
+    left: 11%;
     display: block;
-    width: 100%;
-    height: 30%; }
+    width: 80%;
+    height: 15%; }
   @media screen and (max-width: 768px) {
     .link-to-3c-quiz {
       width: 11.5%;
-      height: 47%;
       top: 20.5%;
       z-index: 1;
-      left: 50.6%; }
-      .link-to-3c-quiz a {
-        height: 41%; } }
+      left: 50.6%; } }
 
 @-webkit-keyframes fadeInLeft-share {
   from {
@@ -2091,9 +2088,11 @@ input[type="submit"] {
              -o-transform: translateX(-50%);
                 transform: translateX(-50%);
         bottom: 0%;
-        width: 50%;
+        width: 53%;
         min-width: 70px;
-        max-width: 200px; }
+        max-width: 200px;
+        cursor: pointer;
+        display: inline-block; }
         .popup-3c-share .blk-col-3 .col-3 a img {
           width: 100%; }
       .popup-3c-share .blk-col-3 .col-3 .join-button {
