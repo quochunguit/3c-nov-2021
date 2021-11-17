@@ -73,10 +73,10 @@ function animate_hl_left(){
     var scrollto = myDiv.offset().left + (myDiv.width() / 1.2);
     myDiv.animate({ scrollLeft:  scrollto}, 2000);
 }
-myVar1 =setTimeout(function() {
+var myVar1 =setTimeout(function() {
   animate_hl_right();
 }, 3000);
-myVar2 =setTimeout(function() {
+var myVar2 =setTimeout(function() {
   animate_hl_left();
 }, 5000);
 
