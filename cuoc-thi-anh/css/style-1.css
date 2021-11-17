@@ -244,11 +244,14 @@
 @media screen and (max-width: 767px){
 	.page-star-guide .main-page{
 		background-image: none;
-		padding-bottom: 65vh;
+		padding-bottom: 50vh;
 	}
 	.page-star-guide{
-		background: url(../images/bg-star-guide-mb.png) no-repeat bottom;
-		background-size: cover;
+		background-image: url(../images/bg-star-guide-mb.png);
+		background-color: #b5b5b5;
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: 100% auto;
 	}
 	.page-star-guide .about-title{
 		width: 100%;
