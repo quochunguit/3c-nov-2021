@@ -39,6 +39,10 @@ window.onload = function(){
         smoke_animation();
     })
 }
+$( ".blk-gr3c-animation" ).mousedown(function() {
+  clearTimeout(myVar1);
+  clearTimeout(myVar2);
+});
 
 
 $('.slider-3c-animation').owlCarousel({
@@ -69,10 +73,10 @@ function animate_hl_left(){
     var scrollto = myDiv.offset().left + (myDiv.width() / 1.2);
     myDiv.animate({ scrollLeft:  scrollto}, 2000);
 }
-setTimeout(function() {
+myVar1 =setTimeout(function() {
   animate_hl_right();
 }, 3000);
-setTimeout(function() {
+myVar2 =setTimeout(function() {
   animate_hl_left();
 }, 5000);
 
@@ -154,3 +158,5 @@ $(".blk-scroll").mCustomScrollbar();
 //     scroll:"y",
 //     resize: "y"
 // }); 
+
+
