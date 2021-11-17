@@ -244,7 +244,7 @@
 @media screen and (max-width: 767px){
 	.page-star-guide .main-page{
 		background-image: none;
-		padding-bottom: 60vh;
+		padding-bottom: 65vh;
 	}
 	.page-star-guide{
 		background: url(../images/bg-star-guide-mb.png) no-repeat bottom;
