@@ -43,9 +43,10 @@
 }
 .page-3c-fixed .upload-img .md-chose-img .img-ava{
 	position: absolute;
-	width: 100%;
+	width: auto;
 	height: 100%;
-	left: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	top: 0;
 	padding: 5px 20px;
 }
@@ -91,9 +92,10 @@
 }
 .page-3c-fixed .upload-img .content-choses .img-ava-2{
 	position: absolute;
-	left: 0;
+	left: 50%;
+	transform: translateX(-50%);
 	top: 0;
-	width: 100%;
+	width: auto;
 	height: 100%;
 }
 .page-3c-fixed .upload-img .content-choses .khung-anh-2{
@@ -183,7 +185,7 @@
 	display: none !important;
 }
 
-@media screen and (max-width: 850px) and (min-width: 768px){
+@media screen and (max-width: 900px) and (min-width: 768px){
 	.page-3c-fixed .sapporo3c-header-content .title-banner{
 		margin: 30px auto 0 auto;
 	}
@@ -202,15 +204,21 @@
 		display: block !important;
 	}
 	.page-3c-fixed .sapporo3c-header-content .title-banner{
-		opacity: 1;
+		margin: 0 auto;
+	}
+	.page-3c-fixed .sapporo3c-header-content{
+		display: block;
+	}
+	.page-3c-fixed .sapporo3c-header-content{
+		padding: 10px 20px;
 	}
 }
-@media screen and (max-width: 450px){
+@media screen and (max-width: 500px){
 	.page-3c-fixed .sapporo3c-header-content{
-		padding: 0px 10px;
+		padding: 5px 10px;
 	}
 	.page-3c-fixed .sapporo3c-header-content p {
-	    font-size: calc(4px + 1vw);
+	    font-size: calc(2px + 1.4vw);
 	}
 	.page-3c-fixed .sapporo3c-header-content .btn{
 		padding-top: 3px !important;
