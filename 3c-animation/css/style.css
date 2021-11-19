@@ -793,9 +793,12 @@ input[type="submit"] {
         -ms-transform: translate(-50%, -50%);
          -o-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    width: auto !important;
-    max-width: 100%;
-    max-height: 100%; }
+    width: 100% !important;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: 100% 0;
+       object-position: 100% 0; }
   .slider-3c-animation .owl-item {
     overflow: hidden; }
   .slider-3c-animation .item {
