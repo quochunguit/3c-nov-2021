@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 30px;
+    padding: 20px 40px;
     text-align: center;
 }
 .page-3c-fixed .sapporo3c-header-content p{
 	color: #000;
-	font-size: calc(5px + 1vw);
+	font-size: calc(3px + 1.2vw);
 }
 .page-3c-fixed .sapporo3c-header-content .title-banner{
 	width: 80%;
@@ -122,6 +122,32 @@
 .page-3c-fixed .upload-img .md-button a{
 	width: 25%;
 	min-width: 120px;
+}
+@media only screen and (min-width: 1300px){
+	.page-3c-fixed .mx-md-5{
+		margin-left: 5rem !important;
+		margin-right: 5rem !important
+	}
+}
+@media only screen and (min-width: 1300px) and (max-width: 1414px){
+	.page-3c-fixed h2{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 920px) and (max-width: 1000px){
+	.page-3c-fixed h2{
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (min-width: 901px) and (max-width: 920px){
+	.page-3c-fixed h2{
+		margin-bottom: 40px;
+	}
+}
+@media only screen and (min-width: 728px) and (max-width: 800px){
+	.page-3c-fixed h2{
+		margin-bottom: 20px;
+	}
 }
 @media only screen and (max-width: 767px){
 	.page-3c-fixed .upload-img{
