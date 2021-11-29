@@ -302,3 +302,17 @@
 		width: 120px;
 	}
 }
+.page-3c-fixed .upload-img .md-text-1{
+	position: absolute;
+    top: 3%;
+    right: 5%;
+    width: 60%;
+}
+.page-3c-fixed .upload-img .md-text-1 p{
+	font-size: 14px;
+}
+@media screen and (max-width: 767px){
+	.page-3c-fixed .upload-img .md-text-1 p{
+		    font-size: calc(5px + 1vw);
+	}
+}
