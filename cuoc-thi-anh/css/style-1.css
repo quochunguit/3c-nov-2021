@@ -129,6 +129,17 @@
 		margin-right: 5rem !important
 	}
 }
+
+@media only screen  and (min-width: 1600px){
+	.page-3c-fixed h2{
+		margin-bottom: 30px;
+	}
+}
+@media only screen  and (min-width: 1999px){
+	.page-3c-fixed h2{
+		margin-bottom: 40px;
+	}
+}
 @media only screen and (min-width: 1300px) and (max-width: 1414px){
 	.page-3c-fixed h2{
 		margin-bottom: 40px;
