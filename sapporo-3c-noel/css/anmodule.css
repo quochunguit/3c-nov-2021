@@ -1294,9 +1294,9 @@
 
 .bg-rotate {
   position: absolute;
-  top: -9.5%;
+  top: -14.5%;
   left: 18%;
-  width: 42%;
+  width: 39%;
   -webkit-animation-delay: 0s;
        -o-animation-delay: 0s;
           animation-delay: 0s; }
@@ -1444,7 +1444,9 @@
                 animation: bg-rotate 70s linear infinite; }
   @media screen and (max-width: 768px) {
     .bg-rotate {
-      top: 0%; } }
+      top: -2%;
+      width: 41%;
+      left: 14%; } }
 
 @-webkit-keyframes bg-rotate {
   from {
@@ -1497,8 +1499,12 @@
 .wellcome-line {
   position: absolute;
   width: 16%;
-  top: 28%;
+  top: 20%;
   left: 30%; }
+  @media screen and (max-width: 768px) {
+    .wellcome-line {
+      top: 26%;
+      left: 26%; } }
 
 .img-share {
   cursor: pointer;
@@ -1539,9 +1545,9 @@
   @media screen and (max-width: 768px) {
     .link-to-3c-quiz {
       width: 11.5%;
-      top: 20.5%;
+      top: 17.5%;
       z-index: 1;
-      left: 50.6%; } }
+      left: 52.6%; } }
 
 @-webkit-keyframes fadeInLeft-share {
   from {
@@ -1764,6 +1770,10 @@
     position: relative; }
     .link-to .inner-link-to .bg {
       width: 100%; }
+  @media screen and (max-width: 768px) {
+    .link-to {
+      top: 28%;
+      left: 54.2%; } }
 
 .light-glass {
   opacity: 0;
@@ -1958,7 +1968,7 @@ body {
   background: url(../images/snow.png);
   background-repeat: repeat;
   width: 100%;
-  height: 5000px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -1970,7 +1980,7 @@ body {
   background: url(../images/snow.png);
   background-repeat: repeat;
   width: 100%;
-  height: 5000px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -1986,7 +1996,7 @@ body {
   background: url(../images/snow.png);
   background-repeat: repeat;
   width: 100%;
-  height: 5000px;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -1999,15 +2009,26 @@ body {
           filter: blur(2px); }
 
 @media screen and (max-width: 700px) {
+  .snow1 {
+    -webkit-animation: snowOne 18s infinite linear;
+         -o-animation: snowOne 18s infinite linear;
+            animation: snowOne 18s infinite linear; }
+
   .snow2 {
-    -webkit-background-size: 200px 200px;
-            background-size: 200px;
+    -webkit-background-size: 250px 250px;
+            background-size: 250px;
     -webkit-filter: blur(1px);
-            filter: blur(1px); }
+            filter: blur(1px);
+    -webkit-animation: snowTwo 18s infinite linear;
+         -o-animation: snowTwo 18s infinite linear;
+            animation: snowTwo 18s infinite linear; }
 
   .snow3 {
-    -webkit-background-size: 200px 200px;
-            background-size: 200px; } }
+    -webkit-animation: snowThree 18s infinite linear;
+         -o-animation: snowThree 18s infinite linear;
+            animation: snowThree 18s infinite linear;
+    -webkit-background-size: 250px 250px;
+            background-size: 250px; } }
 @-webkit-keyframes snowOne {
   0% {
     background-position: 0px 0px; }
