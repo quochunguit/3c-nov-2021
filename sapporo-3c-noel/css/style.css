@@ -2340,8 +2340,7 @@ body {
   left: 0;
   -webkit-animation: snowOne 14s infinite linear;
        -o-animation: snowOne 14s infinite linear;
-          animation: snowOne 14s infinite linear;
-  z-index: 1; }
+          animation: snowOne 14s infinite linear; }
 
 .snow2 {
   background: url(../images/snow.png);
@@ -2357,8 +2356,7 @@ body {
   -webkit-background-size: 300px 300px;
           background-size: 300px;
   -webkit-filter: blur(1px);
-          filter: blur(1px);
-  z-index: 1; }
+          filter: blur(1px); }
 
 .snow3 {
   background: url(../images/snow.png);
@@ -2374,16 +2372,14 @@ body {
   -webkit-background-size: 800px 800px;
           background-size: 800px;
   -webkit-filter: blur(2px);
-          filter: blur(2px);
-  z-index: 1; }
+          filter: blur(2px); }
 
 @media screen and (max-width: 700px) {
   .snow2 {
     -webkit-background-size: 200px 200px;
             background-size: 200px;
     -webkit-filter: blur(1px);
-            filter: blur(1px);
-    z-index: 1; }
+            filter: blur(1px); }
 
   .snow3 {
     -webkit-background-size: 200px 200px;
