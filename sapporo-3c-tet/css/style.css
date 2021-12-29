@@ -937,15 +937,15 @@ input[type="submit"] {
     opacity: 0; } }
 .animation-text-clear {
   position: absolute;
-  width: 16.9%;
-  left: 68.5%;
-  top: 59.71%;
+  width: 21.9%;
+  left: 65.85%;
+  top: 59.75%;
   overflow: hidden; }
   @media screen and (max-width: 768px) {
     .animation-text-clear {
-      width: 19.6%;
-      left: 71.8%;
-      top: 59.8%; } }
+      width: 25.6%;
+      left: 68.45%;
+      top: 59.75%; } }
   .animation-text-clear .inner-text-clear {
     overflow: hidden;
     position: relative; }
@@ -974,45 +974,45 @@ input[type="submit"] {
 
 @-webkit-keyframes light-100 {
   0% {
-    left: -0%; }
+    left: 10%; }
   10% {
-    left: -0%; }
+    left: 10%; }
   20% {
-    left: 100%; }
+    left: 95%; }
   25% {
-    left: 100%; }
+    left: 95%; }
   35% {
-    left: -10%; }
+    left: 10%; }
   100% {
-    left: -10%; } }
+    left: 10%; } }
 
 @-o-keyframes light-100 {
   0% {
-    left: -0%; }
+    left: 10%; }
   10% {
-    left: -0%; }
+    left: 10%; }
   20% {
-    left: 100%; }
+    left: 95%; }
   25% {
-    left: 100%; }
+    left: 95%; }
   35% {
-    left: -10%; }
+    left: 10%; }
   100% {
-    left: -10%; } }
+    left: 10%; } }
 
 @keyframes light-100 {
   0% {
-    left: -0%; }
+    left: 10%; }
   10% {
-    left: -0%; }
+    left: 10%; }
   20% {
-    left: 100%; }
+    left: 95%; }
   25% {
-    left: 100%; }
+    left: 95%; }
   35% {
-    left: -10%; }
+    left: 10%; }
   100% {
-    left: -10%; } }
+    left: 10%; } }
 @-webkit-keyframes light-2 {
   0% {
     background-position: 0% 50%; }
