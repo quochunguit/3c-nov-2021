@@ -598,9 +598,9 @@
 
 @-webkit-keyframes light-100 {
   0% {
-    left: -10%; }
+    left: -0%; }
   10% {
-    left: -10%; }
+    left: -0%; }
   20% {
     left: 100%; }
   25% {
@@ -612,9 +612,9 @@
 
 @-o-keyframes light-100 {
   0% {
-    left: -10%; }
+    left: -0%; }
   10% {
-    left: -10%; }
+    left: -0%; }
   20% {
     left: 100%; }
   25% {
@@ -626,9 +626,9 @@
 
 @keyframes light-100 {
   0% {
-    left: -10%; }
+    left: -0%; }
   10% {
-    left: -10%; }
+    left: -0%; }
   20% {
     left: 100%; }
   25% {
@@ -716,9 +716,9 @@
 
 @-webkit-keyframes vach-song-1 {
   0% {
-    left: 10%; }
+    left: 12%; }
   10% {
-    left: 10%; }
+    left: 12%; }
   23% {
     left: 120%; }
   35% {
@@ -728,9 +728,9 @@
 
 @-o-keyframes vach-song-1 {
   0% {
-    left: 10%; }
+    left: 12%; }
   10% {
-    left: 10%; }
+    left: 12%; }
   23% {
     left: 120%; }
   35% {
@@ -740,9 +740,9 @@
 
 @keyframes vach-song-1 {
   0% {
-    left: 10%; }
+    left: 12%; }
   10% {
-    left: 10%; }
+    left: 12%; }
   23% {
     left: 120%; }
   35% {
@@ -770,10 +770,10 @@
     .animation-vach-song-2 .inner-vach-song:before {
       content: "";
       width: 20%;
-      height: 47%;
+      height: 27%;
       position: absolute;
       background: #FFF;
-      top: 20%;
+      top: 15%;
       left: -10%;
       z-index: 1;
       -webkit-transform: rotate(-25deg);
@@ -789,9 +789,9 @@
 
 @-webkit-keyframes vach-song-2 {
   0% {
-    left: 5%; }
+    left: 7%; }
   13% {
-    left: 5%; }
+    left: 7%; }
   25% {
     left: 120%; }
   35% {
@@ -801,9 +801,9 @@
 
 @-o-keyframes vach-song-2 {
   0% {
-    left: 5%; }
+    left: 7%; }
   13% {
-    left: 5%; }
+    left: 7%; }
   25% {
     left: 120%; }
   35% {
@@ -813,9 +813,9 @@
 
 @keyframes vach-song-2 {
   0% {
-    left: 5%; }
+    left: 7%; }
   13% {
-    left: 5%; }
+    left: 7%; }
   25% {
     left: 120%; }
   35% {
