@@ -716,38 +716,62 @@
 
 @-webkit-keyframes vach-song-1 {
   0% {
-    left: 12%; }
+    left: 12%;
+    opacity: 0; }
+  9% {
+    left: 12%;
+    opacity: 0; }
   10% {
+    opacity: 1;
     left: 12%; }
   23% {
+    opacity: 1;
     left: 120%; }
   35% {
+    opacity: 1;
     left: 120%; }
   100% {
+    opacity: 1;
     left: 120%; } }
 
 @-o-keyframes vach-song-1 {
   0% {
-    left: 12%; }
+    left: 12%;
+    opacity: 0; }
+  9% {
+    left: 12%;
+    opacity: 0; }
   10% {
+    opacity: 1;
     left: 12%; }
   23% {
+    opacity: 1;
     left: 120%; }
   35% {
+    opacity: 1;
     left: 120%; }
   100% {
+    opacity: 1;
     left: 120%; } }
 
 @keyframes vach-song-1 {
   0% {
-    left: 12%; }
+    left: 12%;
+    opacity: 0; }
+  9% {
+    left: 12%;
+    opacity: 0; }
   10% {
+    opacity: 1;
     left: 12%; }
   23% {
+    opacity: 1;
     left: 120%; }
   35% {
+    opacity: 1;
     left: 120%; }
   100% {
+    opacity: 1;
     left: 120%; } }
 .animation-vach-song-2 {
   position: absolute;
@@ -1766,7 +1790,7 @@
   position: absolute;
   top: 24%;
   left: 53.5%;
-  z-index: 10; }
+  z-index: 8; }
   .link-to .inner-link-to {
     position: relative; }
     .link-to .inner-link-to .bg {
