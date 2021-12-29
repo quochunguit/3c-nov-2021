@@ -1057,7 +1057,7 @@ input[type="submit"] {
   position: absolute;
   overflow: hidden;
   width: 4.84%;
-  top: 57.66%;
+  top: 57.82%;
   left: 54.44%; }
   @media screen and (max-width: 768px) {
     .animation-vach-song-1 {
@@ -1074,10 +1074,10 @@ input[type="submit"] {
       z-index: 1;
       content: "";
       width: 20%;
-      height: 120%;
+      height: 50%;
       position: absolute;
       background: #FFF;
-      top: 20%;
+      top: 9%;
       left: -10%;
       -webkit-transform: rotate(-25deg);
           -ms-transform: rotate(-25deg);
@@ -1146,10 +1146,10 @@ input[type="submit"] {
     .animation-vach-song-2 .inner-vach-song:before {
       content: "";
       width: 20%;
-      height: 100%;
+      height: 47%;
       position: absolute;
       background: #FFF;
-      top: 10%;
+      top: 20%;
       left: -10%;
       z-index: 1;
       -webkit-transform: rotate(-25deg);
@@ -1165,9 +1165,9 @@ input[type="submit"] {
 
 @-webkit-keyframes vach-song-2 {
   0% {
-    left: 35%; }
+    left: 5%; }
   13% {
-    left: 35%; }
+    left: 5%; }
   25% {
     left: 120%; }
   35% {
@@ -1177,9 +1177,9 @@ input[type="submit"] {
 
 @-o-keyframes vach-song-2 {
   0% {
-    left: 35%; }
+    left: 5%; }
   13% {
-    left: 35%; }
+    left: 5%; }
   25% {
     left: 120%; }
   35% {
@@ -1189,9 +1189,9 @@ input[type="submit"] {
 
 @keyframes vach-song-2 {
   0% {
-    left: 35%; }
+    left: 5%; }
   13% {
-    left: 35%; }
+    left: 5%; }
   25% {
     left: 120%; }
   35% {
