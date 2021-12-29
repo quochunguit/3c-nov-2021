@@ -937,9 +937,9 @@ input[type="submit"] {
     opacity: 0; } }
 .animation-text-clear {
   position: absolute;
-  width: 16.77%;
+  width: 16.9%;
   left: 68.5%;
-  top: 60%;
+  top: 59.71%;
   overflow: hidden; }
   @media screen and (max-width: 768px) {
     .animation-text-clear {
@@ -1130,7 +1130,8 @@ input[type="submit"] {
   overflow: hidden;
   width: 3.6%;
   top: 32.5%;
-  left: 60.3%; }
+  left: 60.3%;
+  z-index: 12 !important; }
   @media screen and (max-width: 768px) {
     .animation-vach-song-2 {
       width: 4.5%;
@@ -1921,9 +1922,9 @@ input[type="submit"] {
   @media screen and (max-width: 768px) {
     .link-to-3c-quiz {
       width: 8.3%;
-      top: 21.9%;
+      top: 22.3%;
       z-index: 1;
-      left: 54.2%; } }
+      left: 54.54%; } }
 
 @-webkit-keyframes fadeInLeft-share {
   from {
@@ -2150,7 +2151,7 @@ input[type="submit"] {
     .link-to {
       width: 7.9%;
       top: 28%;
-      left: 54.2%; } }
+      left: 54.7%; } }
 
 .light-glass {
   opacity: 0;
@@ -2473,7 +2474,7 @@ body {
   width: 15px;
   height: 15px;
   position: fixed;
-  background: url(../images/hoa-dao-2.png);
+  background: url(../images/hoa-dao-1.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
   z-index: 1000; }

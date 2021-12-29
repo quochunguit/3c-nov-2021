@@ -70,7 +70,7 @@ function animate_hl_right(){
 }
 function animate_hl_left(){
     var myDiv = $(".blk-gr3c-animation");
-    var scrollto = myDiv.offset().left + (myDiv.width() / 1.2);
+    var scrollto = myDiv.offset().left + (myDiv.width() / 1.5);
     myDiv.animate({ scrollLeft:  scrollto}, 2000);
 }
 var myVar1 =setTimeout(function() {
