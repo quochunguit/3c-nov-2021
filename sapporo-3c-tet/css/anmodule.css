@@ -716,9 +716,9 @@
 
 @-webkit-keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {
@@ -728,9 +728,9 @@
 
 @-o-keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {
@@ -740,9 +740,9 @@
 
 @keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {

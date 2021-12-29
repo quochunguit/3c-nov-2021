@@ -1092,9 +1092,9 @@ input[type="submit"] {
 
 @-webkit-keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {
@@ -1104,9 +1104,9 @@ input[type="submit"] {
 
 @-o-keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {
@@ -1116,9 +1116,9 @@ input[type="submit"] {
 
 @keyframes vach-song-1 {
   0% {
-    left: 0%; }
+    left: 10%; }
   10% {
-    left: 0%; }
+    left: 10%; }
   23% {
     left: 120%; }
   35% {
