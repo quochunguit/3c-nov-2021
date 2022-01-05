@@ -430,9 +430,6 @@ input[type="submit"] {
 
 .blk-gr3c-animation {
   max-width: 100%; }
-  @media screen and (min-width: 1320px) {
-    .blk-gr3c-animation {
-      overflow: hidden; } }
   @media screen and (max-width: 768px) {
     .blk-gr3c-animation {
       overflow-x: scroll;
@@ -2486,8 +2483,8 @@ body {
   z-index: 100; }
 
 .dot2 {
-  width: 20px;
-  height: 20px;
+  width: 19px;
+  height: 19px;
   position: fixed;
   background: url(../images/hoa-dao-2.png);
   -webkit-background-size: 100% 100%;
@@ -2495,8 +2492,8 @@ body {
   z-index: 100; }
 
 .dot3 {
-  width: 19px;
-  height: 19px;
+  width: 18px;
+  height: 18px;
   position: fixed;
   background: url(../images/hoa-dao-1.png);
   -webkit-background-size: 100% 100%;
