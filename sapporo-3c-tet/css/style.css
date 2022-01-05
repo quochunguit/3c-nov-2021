@@ -2477,13 +2477,13 @@ body {
   100% {
     background-position: 100px 750px; } }
 .dot {
-  width: 15px;
-  height: 15px;
+  width: 17px;
+  height: 17px;
   position: fixed;
   background: url(../images/hoa-dao-1.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
-  z-index: 1000; }
+  z-index: 100; }
 
 .dot2 {
   width: 20px;
@@ -2492,16 +2492,16 @@ body {
   background: url(../images/hoa-dao-2.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
-  z-index: 222000; }
+  z-index: 100; }
 
 .dot3 {
-  width: 15px;
-  height: 15px;
+  width: 16px;
+  height: 16px;
   position: fixed;
   background: url(../images/hoa-dao-1.png);
   -webkit-background-size: 100% 100%;
           background-size: 100% 100%;
-  z-index: 1000; }
+  z-index: 100; }
 
 #container {
   -webkit-perspective: auto !important;
