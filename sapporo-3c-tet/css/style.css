@@ -2495,8 +2495,8 @@ body {
   z-index: 100; }
 
 .dot3 {
-  width: 16px;
-  height: 16px;
+  width: 19px;
+  height: 19px;
   position: fixed;
   background: url(../images/hoa-dao-1.png);
   -webkit-background-size: 100% 100%;
