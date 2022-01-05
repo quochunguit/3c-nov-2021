@@ -2483,8 +2483,8 @@ body {
   z-index: 100; }
 
 .dot2 {
-  width: 19px;
-  height: 19px;
+  width: 18px;
+  height: 18px;
   position: fixed;
   background: url(../images/hoa-dao-2.png);
   -webkit-background-size: 100% 100%;
