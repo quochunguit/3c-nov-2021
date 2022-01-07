@@ -985,7 +985,7 @@ _paq.push(['setSiteId', '2']);
     //TweenLite.set("img",{xPercent:"-50%",yPercent:"-50%"})
     var window_width=$(window).width();
     if(window_width>768){
-      var total = 8;
+      var total = 9;
     }else{
       var total = 5;
     }
@@ -996,8 +996,8 @@ _paq.push(['setSiteId', '2']);
        var Div = document.createElement('div');
        var Div2 = document.createElement('div');
        var Div3 = document.createElement('div');
-       TweenLite.set(Div,{attr:{class:'dot'},x:R(0,w),y:R(-200,-150),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
-       TweenLite.set(Div2,{attr:{class:'dot2'},x:R(0,w),y:R(-200,-200),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
+       TweenLite.set(Div,{attr:{class:'dot'},x:R(0,w),y:R(-200,-150),z:R(-200,200),xPercent:"-70%",yPercent:"-50%"});
+       TweenLite.set(Div2,{attr:{class:'dot2'},x:R(0,w),y:R(-200,-200),z:R(-200,200),xPercent:"-30%",yPercent:"-50%"});
        TweenLite.set(Div3,{attr:{class:'dot3'},x:R(0,w),y:R(-200,-250),z:R(-200,200),xPercent:"-50%",yPercent:"-50%"});
        container.appendChild(Div);
        container.appendChild(Div2);
@@ -1008,14 +1008,14 @@ _paq.push(['setSiteId', '2']);
      }
      
      function animm(elm){   
-       TweenMax.to(elm,R(20,55),{y:h+100,ease:Linear.easeNone,repeat:-1,delay:-15});
+       TweenMax.to(elm,R(20,55),{y:h+200,ease:Linear.easeNone,repeat:-1,delay:-15});
        TweenMax.to(elm,R(42,55),{x:'+=350',rotationZ:R(0,0),repeat:-1,yoyo:true,ease:Sine.easeInOut});
-       TweenMax.to(elm,R(22,55),{repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-5});
+       TweenMax.to(elm,R(22,55),{repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-9});
      };
       function animm2(elm){   
-       TweenMax.to(elm,R(27,55),{y:h+100,ease:Linear.easeNone,repeat:-1,delay:-25});
+       TweenMax.to(elm,R(27,55),{y:h+150,ease:Linear.easeNone,repeat:-1,delay:-25});
        TweenMax.to(elm,R(22,55),{x:'+=350',rotationZ:R(0,0),repeat:-1,yoyo:true,ease:Sine.easeInOut});
-       TweenMax.to(elm,R(22,55),{repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-5});
+       TweenMax.to(elm,R(22,55),{repeat:-1,yoyo:true,ease:Sine.easeInOut,delay:-2});
      };
       function animm3(elm){   
        TweenMax.to(elm,R(26,55),{y:h+100,ease:Linear.easeNone,repeat:-1,delay:-  9});
