@@ -1901,7 +1901,7 @@ input[type="submit"] {
   left: 30%; }
   @media screen and (max-width: 768px) {
     .wellcome-line {
-      top: 26%;
+      top: 26.5%;
       left: 26%; } }
 
 .img-share {
