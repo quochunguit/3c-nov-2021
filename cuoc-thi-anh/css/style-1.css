@@ -280,11 +280,11 @@
 	color: #FFF;
 }
 .page-star-guide .about-content{
-	color: #000;
+	color: #FFF;
 	margin-bottom: 20px;
 }
 .page-star-guide .main-page{
-	background-image: url(../images/bg-star-guide.png);
+	background-image: url(../images/bg-star-guide.jpg);
 }
 @media screen and (max-width: 767px){
 	.page-star-guide .main-page{
@@ -292,7 +292,7 @@
 		padding-bottom: 50vh;
 	}
 	.page-star-guide{
-		background-image: url(../images/bg-star-guide-mb.png);
+		background-image: url(../images/bg-star-guide-mb.jpg);
 		background-color: #b5b5b5;
 		background-position: bottom;
 		background-repeat: no-repeat;
